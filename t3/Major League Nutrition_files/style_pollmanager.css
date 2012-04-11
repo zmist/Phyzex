@@ -1,0 +1,104 @@
+/* Additional style definitions for the poll sidebox. */
+
+/* Style for the whole sidebox. It overrides the class right/leftBoxContainer */
+#PollManager {
+	}
+	
+/* Style for the sidebox header. It overrides the class right/leftBoxHeading */
+#PollManagerHeading {
+	}
+
+/* The input form starts right beneath the sidebox header */
+#PollManagerInputForm {
+	margin-top: 0em;
+	display: inline-block;
+	width: 99%;
+	}
+
+/* Within the form, the whole content is in this box. Default style is in class sideBoxContent */
+#PollManagerContent {
+	padding-top:0;
+	}
+	
+/* Heading title of the content */
+#PollManagerPollHeading {
+	font-weight: bold;
+	text-align : center;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	}
+	
+/* Style for each option line */
+.PollManagerOption {
+	width: 99%;
+	clear: both;
+	overflow: hidden;
+	}
+
+/* Within the option line, the input field containing div */
+.PollManagerOptionInput {
+	float: left;
+	width: 12%;
+	margin-top: 2px;
+	}
+
+/* And the input field itself (radio or checkbox) */
+.PollManagerOptionInputField {
+	font-size: 1.5em;
+	border:none;
+	padding:0;
+	margin:2px 0 0 0;
+	}
+.PollManagerOptionInputField:focus{
+	outline:none;
+}
+
+/* And the text field */
+.PollManagerOptionText {
+	margin-top: 0.1em;
+	float: left;
+	width: 87%; 
+	line-height: 1.5em;
+	}
+
+/* And the user input field */
+.PollManagerOptionUserInput {
+	margin-top: 0.1em;
+	width: 98%;
+	}
+
+/* Style for the div containing the vote/result buttons */
+#PollManagerButtons {
+	text-align : center;
+	margin-top: 0.5em;
+	}
+	
+/* Style for the option result line */
+.PollManagerResult {
+	clear: both;
+	}
+
+/* Style for the option text in each result line */
+.PollManagerResultText {
+	margin-top: 0.1em;
+	line-height:1.5em;
+	}
+
+/* Style for the resultbar in the sidebox */
+.PollManagerResultBar {
+	float:left;
+	background-size:100%;
+	}
+	
+/* Style for the percentage behind the resultbar */
+.PollManagerResultPerc {
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 4px;
+	}
+
+/* Style for the result footer: the Thank you text */
+.PollManagerResultFooter {
+	font-weight: bold;
+	text-align : center;
+	}	

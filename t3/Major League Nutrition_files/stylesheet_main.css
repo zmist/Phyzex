@@ -1,0 +1,529 @@
+
+
+/*  ----------------------- MAIN STYLES -----------------------  */
+
+
+ul {padding:0px; margin:8px 20px; color:#4d5255;}
+.centerColumn ul {padding:0px; margin:8px 15px; color:#4d5255;}
+
+
+#navColumnOne {}
+#navColumnTwo {}
+
+
+
+.centerColumn {}
+.centerColumn table {}
+
+
+#indexDefault {border:none; padding:0;}
+
+#indexDefault, #specialsListing, #newProductsDefault, #allProductsDefault, #loginDefault, #productGeneral, #shoppingCartDefault {margin:0;}
+
+input#login-email-address, input#login-password, input#company, input#firstname, input#lastname, input#suburb, input#street-address, input#city, input#state, select#country, input#telephone, input#fax, input#email-address, input#contactname {width:70%; vertical-align:middle;}
+input#dob, input#postcode {width:70px; margin:0 0 3px; vertical-align:middle;}
+
+input#password-new, input#password-confirm {width:49%; margin:0 0 3px; vertical-align:middle;}
+#password-current{ margin:0 0 3px 0; vertical-align:middle;}
+
+textarea#enquiry {width:70%; margin:1px 0;}
+.button-padding{ padding:15px 0 0 0;}
+#featuredProducts, #whatsNew, #specialsDefault, #specialsListing{ padding:0;}
+#from-name, #from-email-address, #to-name{ margin-bottom:3px;}
+#to-email-address{ margin-bottom:15px;}
+#inc-subcat{ margin:5px 0 0 0;}
+#reviewsWriteReviewsRate{
+	margin:15px 0 0 0;
+}
+#productQuantityDiscounts{
+	overflow:hidden;
+	float:left;
+}
+#productQuantityDiscounts td{
+	border:1px solid #eceaea;
+	text-align:center;
+	padding:4px;
+}
+#productQuantityDiscounts tr:first-child{
+	font-weight:bold;
+}
+/* -+-+-+-+-+-+-+-+-+-+-+-+- */
+
+.tie{ border:solid 1px #cccccc; background:#fff;}
+.tie-margin1{ margin-bottom:10px;}
+.tie .tie-indent{ padding:11px;}
+
+.tie2{ background:#eeeeee; }
+.tie2 .tie2-indent{ padding:15px 20px;}
+.tie2 label{ font-weight:bold; color:#010101;}
+
+
+#productGeneral .tie{ border:none;}
+#productGeneral .tie .tie-indent{ padding:0;}
+.model{ display:block;}
+.tie3{ background:#f9f9f9; border:solid 1px #cccccc; }
+.tie3 .tie3-indent{ padding:18px 20px;}
+
+.desc2{
+	width:395px;
+	margin:0 0 0 5px;
+}
+
+#productListing .tie{ border:none;}
+#productListing .tie-indent{padding:0;}
+#reviewsDefault .tie{border:none; border-bottom:1px solid #eaeaea;}
+#reviewsDefault .image{ border:none;}
+#reviewsInfoDefault .tie { border:none;}
+#newProductsDefault .tie .image, #allProductsDefault .tie .image{border:none;}
+#newProductsDefault .tie .image{ border:none; } 
+
+.image{ display:inline-block; border:solid 1px #cccccc;  padding:2px; position:relative;}
+.image a{ position:relative; display:inline-block;}
+.zoom{ position:absolute; width:29px; height:28px; background:url(../../temp3/Major%20League%20Nutrition_files/icons/zoom-icon.png) no-repeat 0 0; bottom:3px; left:3px;}
+
+.description a{ font-weight:bold;}
+.description strong{ color:#000; display:block;}
+.price-text{ font-weight:bold; color:#fac902; font-size:12px; display:none;}
+
+.stock{ border:solid 1px #cccccc;  color:#000; padding:10px 108px 10px 10px; display:inline-block;}
+
+#gvFaqDefaultMainContent{ float:left;}
+#gvFaqDefaultMainContent a{ display:block; color:#2d2d2d; font-weight:bold; text-decoration:none; }
+#gvFaqDefaultMainContent a:hover{ color:#c60101;}
+
+#lookup-gv-redeem{ width:70%;}
+
+fieldset{ background:none; border:solid 1px #cccccc; padding:15px 20px 30px 20px; color:#494949; margin-bottom:20px !important;}
+legend{ border:solid 1px #cccccc; padding:10px 20px; color:#494949; background:#fff; margin-bottom:15px;}
+@media \0screen {
+  legend {margin-bottom:32px;}
+  #gvFaqDefault form{ position:relative; top:-16px; margin-bottom:-15px;}
+  #gvFaqDefault form legend{ margin-bottom:30px;}
+  #contactUsDefault form fieldset{ position:relative; top:-16px; margin-bottom:-15px;}
+  #contactUsDefault form fieldset legend{ margin-bottom:30px;}
+  fieldset.first{ margin:-10px 0 0px 0;}
+  fieldset.first legend{ margin-bottom:30px;}
+  fieldset.second{ position:relative; top:-16px;}
+  fieldset.second legend{ margin-bottom:30px;}
+  fieldset.company{ position:relative; top:-16px;}
+  fieldset.address{ position:relative; top:-32px;}
+  #passwordForgotten fieldset{ margin-top:-10px;}
+  #checkoutShippingContentChoose{ margin-bottom:-16px;}
+  #checkoutShipping fieldset legend{ margin-bottom:28px;}
+  #checkoutOrderTotals { margin-top:-10px;}
+  #checkoutOrderTotals legend{ margin-bottom:30px;}
+  #checkoutPayment .one{ margin-top:-16px;}
+  #checkoutPayment .one legend{ margin-bottom:30px;}
+  #checkoutPayment .two{ margin-top:-16px;}
+  #checkoutPayment .two legend{ margin-bottom:30px;}
+  #checkoutPayment .three{ margin-top:-16px;}
+  #checkoutPayment .three legend{ margin-bottom:30px;}
+  #csNotifications{ position:relative; top:-16px;}
+  #csNotifications legend{ margin-bottom:28px;}
+}
+
+
+#indexCategories .tie .tie-indent #featuredProducts,
+#indexCategories .tie .tie-indent #specialsDefault{
+	display:none;
+}
+.tabTable .price, .tabTable .productSpecialPrice, .tabTable .normalprice{ font-weight:700; font-size:18px; line-height:18px; color:#c90000;}
+#cartContentsDisplay .price{ font-weight:700; font-size:18px; line-height:18px; color:#c90000;}
+.cartUnitDisplay.price{
+	text-align:left!important;
+}
+.cartTotalDisplay{
+	text-align:left!important;
+}
+.productListing-data{
+	padding-left:13px!important;
+	padding-right:13px!important;
+}
+.help-cart{ float:right; font-weight:bold; color:#000; padding:7px 20px 0 0;}
+.help-cart a{ color:#000;}
+
+.bot-border{ border-bottom:solid 1px #cccccc; padding-bottom:10px; margin-bottom:10px; overflow:hidden;}
+
+.prod-buttons{ float:right; padding:15px 0 0 0;}
+
+
+/* -+-+-+-+-+-+-+-+-+-+-+-+- */
+
+/*  ----------------------- NAVIGATION -----------------------  */
+
+#navCatTabs {color:#4d5255; font-weight:bold; margin-bottom:2px;}
+#navCatTabs ul {margin:0 10px; padding:10px 0; list-style:none; line-height:18px;}
+#navCatTabs ul li {display:inline; padding:0px 10px;}
+#navCatTabs ul li a {outline:none; text-decoration:underline;}
+#navCatTabs ul li a:hover{ text-decoration:none;}
+
+#navBreadCrumb {padding:10px 0px 0px 0px; color:#4d5255; font-weight:bold; margin-bottom:2px;}
+#navBreadCrumb a {outline:none; text-decoration:underline;}
+
+
+
+
+/*  ----------------------- HEADINGS -----------------------  */
+
+#accountDefaultHeading, #accountHistoryDefaultHeading, #accountNotificationsHeading, #addressBookDefaultHeading, #advSearchDefaultHeading, #advSearchResultsDefaultHeading, #checkoutShippingHeading, #checkoutPaymentHeading, #checkoutConfirmDefaultHeading, #checkoutPayAddressDefaultHeading, #checkoutShipAddressDefaultHeading, #checkoutSuccessHeading, #conditionsHeading, #cookieUsageDefaultHeading, #createAcctDefaultHeading, #createAcctSuccessHeading,  #customerAuthDefaultHeading, #discountcouponInfoHeading, #maintenanceDefaultHeading, #downloadTimeOutHeading, #gvFaqDefaultHeading, #ContantDefaultHeading, #gvRedeemDefaultHeading, #gvSendDefaultHeadingDone, #indexDefaultHeading, #loginDefaultHeading, #logoffDefaultHeading, #pageNotFoundHeading, #pageTwoHeading, #pageThreeHeading, #pageFourHeading, #privacyDefaultHeading, #shippingInfoHeading, #cartDefaultHeading, #siteMapHeading, #sslCheckHeading, #timeoutDefaultHeading, #unsubDefaultHeading, #ezPagesHeading, #acctNewslettersDefaultHeading {color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+
+#addressBookProcessDefault h1 {color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+
+
+
+
+h2 {font-size:14px; font-weight:bold; line-height:normal; color:#363636; padding:3px 0px 5px;}
+h3 {color:#363636; font-size:12px; font-weight:bold; line-height:normal; padding:3px 0px 5px;}
+h4 {color:#363636; font-size:11px; font-weight:bold; line-height:normal; padding:3px 0px 5px;}
+
+
+
+
+
+/*  ----------------------- PRODUCT LISTING -----------------------  */
+
+
+
+/*  HEADINGS  */
+
+h2.centerBoxHeading {color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+
+#indexCategoriesHeading, #productListHeading {color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+
+#gvSendDefaultHeadingSend, #newProductsDefaultHeading, #allProductsDefaultHeading, #featuredDefaultHeading, #specialsListingHeading, #reviewsDefaultHeading {color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+
+/*  --------  */
+
+
+
+/*  LISTINGS  */
+
+#newProductsDefault, #allProductsDefault, #featuredDefault, #specialsListing, #reviewsDefault {}
+
+#newProductsDefault .line, #allProductsDefault .line, #featuredDefault .line {padding:0; line-height:0px; font-size:0px; background:url(../../temp3/Major%20League%20Nutrition_files/line_1.gif) top left repeat-x; height:7px;}
+
+#newProductsDefault td, #allProductsDefault td, #featuredDefault td {padding:10px; border:none;}
+
+/*  --------  */
+
+/*  REVIEWS  */
+
+#reviewsDefault hr {color:#D8D8D8; border:0; border-top:1px solid #cccccc; margin:5px 0px;}
+
+#reviewsDefault .smallProductImage {padding:0px 20px 0 0;}
+	.date-added{ font-weight:normal; color:#000; padding:15px 0 5px; border-bottom:solid 1px #e5e5e5; overflow:hidden; margin-bottom:10px;}
+#reviewsInfoDefaultHeading, #productReviewsDefaultHeading, #reviewsWriteHeading {clear:both; color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+#reviewsDefault .rating, .bold {padding:5px 0px;}
+.rating{ padding:10px 0;}
+.name-type { font-size:17px; text-decoration:none; line-height:20px; font-weight:700; text-transform:uppercase; font-family: 'Open Sans', sans-serif;}
+#reviewsInfoDefaultPrice, #reviewsWritePrice, h2#productReviewsDefaultPrice {font-family: 'Open Sans', sans-serif;
+	color:#a0a0a0;
+	font-size:18px;
+	line-height:18px;
+	font-weight:700;}
+
+/*  -------  */
+
+
+/*  CATEGORY  */
+
+#indexCategories {}
+
+#categoryImgListing {}
+.categoryImg{  float:left; padding:0; margin:0px 15px 10px 0;}
+
+#indexProductListCatDescription, #categoryDescription {}
+
+
+.categoryListBoxContents {padding:5px 0; margin:0 5px 0 0; width:49%!important;}
+.categoryListBoxContents img {margin-bottom:0px; float:left; width:70px; height:70px; display:block; background:red;}
+.categoryListBoxContents a {color:#2d2d2d; text-decoration:none; text-transform:none; display:block; border:solid 1px #ccc; text-align:left; font-weight:bold; overflow:hidden; padding:5px;}
+.categoryListBoxContents a:hover{ color:#ca1212;}
+.categoryListBoxContents a span{ display:block; padding:5px 10px 5px; float:left; }
+
+#indexCategories .tie{ border:none;}
+#indexCategories .tie .tie-indent{ padding:0;}
+/*  --------  */
+
+
+/*  CATEGORY LISTING  */
+
+.tabTable {margin:0px 0px 5px 0px; border-left:1px solid #cccccc;}
+.tabTable th {padding:5px 10px; border-top:1px solid #cccccc; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; text-align:center;}
+.tabTable th {font-size:12px; font-weight:normal; background:#fafafa; color:#000;}
+.tabTable th a {color:#000;}
+
+.tabTable td {border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; padding:5px;}
+.tabTable td .listingDescription {padding:5px 0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px;}
+.tabTable td a {font-size:17px; text-decoration:none; line-height:20px; font-weight:700; text-transform:uppercase; font-family: 'Open Sans', sans-serif;}
+.tabTable td a:hover { color:#cc1212;}
+
+/*  ----------------  */
+
+
+
+/*  TABLES  */
+
+#prevOrders {margin:0px 0px 5px 0px; border-left:1px solid #cccccc;}
+#prevOrders th {padding:5px 10px; border-top:1px solid #cccccc; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; text-align:center;}
+#prevOrders th {font-size:12px; font-weight:normal; background:#fafafa; color:#000;}
+#prevOrders th a {color:#000;}
+
+#prevOrders td {border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; padding:5px;}
+#prevOrders td {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px;}
+#prevOrders td a {outline:none; text-decoration:underline;}
+
+
+#accountHistInfo table {margin:0px 0px 5px 0px; border-left:1px solid #cccccc;}
+#accountHistInfo th {padding:5px 10px; border-top:1px solid #cccccc; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; text-align:center;}
+#accountHistInfo th {font-size:12px; font-weight:normal; background:#fafafa; color:#000;}
+#accountHistInfo th a {color:#000;}
+
+#accountHistInfo td {border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; padding:5px;}
+#accountHistInfo td {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px;}
+#accountHistInfo td a {outline:none; text-decoration:underline;}
+
+/*  ----------------  */
+
+
+/*  ----------------------- PRODUCT INFO -----------------------  */
+
+.categoryIcon {padding:10px;}
+.categoryIcon a {font-size:17px; text-decoration:none; line-height:20px; font-weight:700; text-transform:uppercase; font-family: 'Open Sans', sans-serif;}
+.categoryIcon a:hover{ color:#cc1212;}
+
+.navNextPrevWrapper {margin:12px 10px 30px 10px; padding:10px 0px; text-align:center;}
+.navNextPrevWrapper span{ position:relative; top:-3px;}
+
+#productMainImage, #reviewsInfoDefaultProductImage, #productReviewsDefaultProductImage, #reviewWriteMainImage {
+	margin:0 10px 0 0; text-align:center; line-height:20px;
+}
+#productMainImage a, #reviewsInfoDefaultProductImage a, #productReviewsDefaultProductImage a, #reviewWriteMainImage a {font-size:17px; text-decoration:none; line-height:20px; font-weight:700; text-transform:uppercase; font-family: 'Open Sans', sans-serif;}
+#productMainImage a:hover, #reviewsInfoDefaultProductImage a:hover, #productReviewsDefaultProductImage a:hover, #reviewWriteMainImage a:hover{ color:#cc1212;}
+
+#productName {clear:both; color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+#productPrices {font-family: 'Open Sans', sans-serif;
+	color:#a0a0a0;
+	font-size:18px;
+	line-height:18px;
+	font-weight:700;}
+#productDescription {margin:0px; padding:15px 0 0; width:100%; overflow:hidden;}
+.instock{ padding:0; margin:0!important;}
+#cartAdd { margin:0; padding:1em 1em 1em 0; margin:10px 0 0; overflow:hidden;}
+#cartAdd .qty{ padding:3px; border:solid 1px #E1E1E1; width:50px;}
+
+#alsoPurchased {margin:20px 0;}
+#alsoPurchased a { font-size:17px; text-decoration:none; line-height:20px; font-weight:700; text-transform:uppercase; font-family: 'Open Sans', sans-serif;}
+#alsoPurchased a:hover{ color:#cc1212;}
+#alsoPurchased .centerBoxContentsAlsoPurch .image{margin-bottom:8px;}
+
+
+
+#productAdditionalImages {margin:10px 0 0 0;  padding:10px 2px 0px 4px; position:relative; width:182px; overflow:hidden;  border:solid 1px #cccccc; height:auto;}
+#productAdditionalImages  #gallery { padding:0; margin:0; list-style:none;}
+#productAdditionalImages  #gallery  div{display: inline; text-align:center; position:relative; overflow:hidden; margin:0px 5px 10px 0; width:53px!important; }
+#productAdditionalImages .additionalImages a {height:50px; width:50px; overflow:hidden; position:relative; font-size:17px; text-decoration:none; line-height:20px; font-weight:700; text-transform:uppercase; font-family: 'Open Sans', sans-serif; }
+#productAdditionalImages .additionalImages a:hover{ color:#cc1212;}
+#productAdditionalImages .additionalImages a img{ width:50px; height:50px; position:relative; }
+
+
+
+/*  ----------------------- SHOPPING CART -----------------------  */
+
+#cartInstructionsDisplay {padding:10px; border-bottom:solid 1px #cccccc;}
+
+#cartEmptyText {font-size:17px; color:#fff; background:url(../../temp3/Major%20League%20Nutrition_files/icons/warning2.gif) right 17px no-repeat #f76218; text-transform:uppercase;   font-weight:bold; padding:30px 0 17px 50px; margin:0 -13px 0 -13px; height:35px;}
+
+#cartContentsDisplay {border-left:1px solid #cccccc;}
+#cartContentsDisplay th {border:1px solid #cccccc; border-left:none; padding:5px; text-align:center;}
+#cartContentsDisplay th {font-size:12px; font-weight:normal; background:#fafafa; color:#000;}
+#cartContentsDisplay th a {color:#000;}
+#cartContentsDisplay td {border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; padding:5px; text-align:center;}
+#cartContentsDisplay td .cartAttribsList {text-align:left;}
+#cartContentsDisplay td.cartTotalDisplay {font-family: 'Open Sans', sans-serif;
+	color:#a0a0a0;
+	font-size:18px;
+	line-height:18px;
+	font-weight:700;}
+#cartContentsDisplay td #cartImage {float:none; display:block; margin:0 1em 0.5em 1em; padding:10px 0;}
+	#cartProdTitle{ display:block; margin:0.5em 1em 0 1em; padding:5px 0;  text-align:center; padding-left:10px;}
+	#cartContentsDisplay a{ text-decoration:none;}
+#cartContentsDisplay td a {color:#404040;}
+#cartContentsDisplay td a:hover { color:#cc1212;}
+#cartSubTotal {padding:5px; text-align:right; font-weight:bold;}
+#cartSubTotal strong {font-family: 'Open Sans', sans-serif;
+	color:#a0a0a0;
+	font-size:18px;
+	line-height:18px;
+	font-weight:700;}
+#shoppingCartDefault .centerBoxHeading{ border-top:1px solid #ccc;}
+#shoppingCartDefault .tie,
+#loginDefault .tie{ border:none;}
+#shoppingCartDefault .tie-indent{ padding:0;}
+#shoppingCartDefault .buttonRow {margin:5px;}
+
+#shoppingCartDefault .text_v_c {margin:5px; text-align:right; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px;}
+#shoppingCartDefault .text_v_c a {outline:none; text-decoration:underline;}
+
+.shcart_btn{
+	overflow:hidden;
+	margin:12px 0 0 0;
+}
+.shcart_btn div{
+	float:left;
+	margin-right:4px;
+}
+
+
+.advisory {margin:10px;}
+
+
+#alsoPurchased .centerBoxHeading{ border-top:1px solid #ccc;}
+
+#infoShoppingCart, #popupSearchHelp {background:#FFFFFF;}
+#infoShoppingCart div {padding:20px;}
+#infoShoppingCart h1 {color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+
+#popupSearchHelp div {padding:20px;}
+
+#popupCVVHelp {background:#FFFFFF;}
+#popupCVVHelp div {padding:10px 20px;}
+#popupCVVHelp h1 {color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+
+
+
+.hiddenField {display:none;}
+
+
+
+#popupShippingEstimator {background:#FFFFFF; padding:0;}
+#popupShippingEstimator div {padding:15px;}
+#popupShippingEstimator #state{ margin-left:128px;}
+
+#shippingEstimatorContent h2 {color:#333333;
+	font-size:14px;
+	line-height:27px;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+	background:url(title-bg.gif) repeat-x left top;
+	padding:2px 0 3px 11px;
+	border-bottom:1px solid #ccc;
+	margin:0 -13px 19px;}
+
+select#country, select#stateZone {width:160px; margin:0 0 3px;}
+input#state {width:156px; margin:0 0 3px 0px;}
+#popupShippingEstimator label#stateLabel {display:none;}
+#shippingEstimatorContent td.cartTotalDisplay {font-family: 'Open Sans', sans-serif;
+	color:#a0a0a0;
+	font-size:18px;
+	line-height:18px;
+	font-weight:700;}
+
+#shippingEstimatorContent table {margin:0px 0px 5px 0px; border-left:1px solid #cccccc; border-bottom:1px solid #cccccc; border-collapse:collapse;}
+#shippingEstimatorContent th {padding:5px 10px; border-top:1px solid #cccccc; border-right:1px solid #cccccc; text-align:center;}
+#shippingEstimatorContent th {font-size:12px; font-weight:normal; background:#fafafa; color:#000;}
+#shippingEstimatorContent th a {color:#000;}
+
+#shippingEstimatorContent td {border-right:1px solid #cccccc; border-top:1px solid #cccccc; padding:5px;}
+#shippingEstimatorContent td {font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px;}
+
+
+
+/*============================================*/
+.rev-but{
+	overflow:hidden;
+}
+.rev-but div{
+	float:left;
+	margin-right:4px;
+}
+
+.button-padding{
+	overflow:hidden;
+}
+.button-padding div{
+	float:left;
+	margin-right:4px;
+}

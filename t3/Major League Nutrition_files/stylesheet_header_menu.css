@@ -1,0 +1,151 @@
+body {  
+	behavior: url(../../temp3/Zen%20Cart!,%20The%20Art%20of%20E-commerce_files/includes/csshover.htc);
+	}
+
+div#dropMenu li a:hover, div#dropMenu li.submenu li.submenu:hover {}
+
+	
+#dropMenuWrapper {
+	width:100%;
+	margin:0;
+	}
+	
+div#dropMenu {
+	z-index:2;
+	position:relative;
+	}
+
+div#dropMenu ul {
+	margin: 0; 
+	padding: 0;
+	}
+	
+div#dropMenu li {
+	position: relative; 
+	list-style: none; 
+	margin: 0; 
+	float: left; 
+	line-height: 1em;
+	}
+	
+
+	
+div#dropMenu li:hover {}
+div#dropMenu li.submenu {}
+div#dropMenu li.submenu:hover {}
+div#dropMenu li a {display: block;} 
+div#dropMenu>ul a {width: auto;}
+div#dropMenu ul ul.level2 {position: absolute; display: none;}
+div#dropMenu ul ul li {}
+div#dropMenu li.submenu li.submenu {}
+div#dropMenu ul.level1 li.submenu:hover ul.level2, 
+div#dropMenu ul.level2 li.submenu:hover ul.level3,
+div#dropMenu ul.level3 li.submenu:hover ul.level4,
+div#dropMenu ul.level4 li.submenu:hover ul.level5 {display:block;z-index:2;}
+div#dropMenu ul.level2 {top:37px; left:0px; z-index:2;}
+div#dropMenu ul.level3, div#dropMenu ul.level4, div#dropMenu ul.level5 {top: 0; left: 0;}
+div#dropMenu ul.level2 a {padding: 0; text-transform:none;}  /* this is text color on drop-down submenu */
+div#dropMenu ul.level2 a:hover {}
+
+div#dropMenu ul.level1{
+	padding:0px 0 0 0;
+}
+div#dropMenu ul.level1>li{
+
+}
+div#dropMenu ul.level1>li:first-child>a{
+	padding:4px 9px 6px 12px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+}
+div#dropMenu ul.level1>li>a{
+	color:#fff;
+	font-size:12px;
+	line-height:27px;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+	padding:4px 9px 6px 10px;
+	border-right:1px solid #58587d;
+}
+div#dropMenu ul.level1>li>a.screenshot{ }
+div#dropMenu ul.level1>li.submenu > a:hover, 
+div#dropMenu ul.level1>li.submenu:hover > a,
+div#dropMenu ul.level1>li>a:hover{
+	background:url(cat-act.gif) repeat-x left top;
+	border-right:1px solid #c63535;
+}
+div#dropMenu ul.level2{
+	width:948px;
+	background:url(level2-bg.gif) repeat-x left top #ededed;
+	padding:24px 0px 22px 0px;
+	margin:0;
+	border:1px solid #cccccc;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+div#dropMenu ul.level2>li{
+	width:192px;
+	overflow:hidden;
+	float:left;
+	padding:0 0 0px 28px;
+	border-left:1px solid #c6c6c6;
+	min-height:169px;
+}
+div#dropMenu ul.level2>li:first-child,
+div#dropMenu ul.level2>li.last{	
+	border:none;
+}
+div#dropMenu ul.level2>li>a{
+	color:#000;
+	font-size:11px;
+	line-height:20px;
+	text-transform:uppercase;
+	font-weight:600px;
+	text-decoration:none;
+	font-family: 'Open Sans', sans-serif;
+}
+div#dropMenu ul.level2>li:hover>a{
+	text-decoration:underline;
+}
+div#dropMenu ul.level3{
+	padding:9px 0 0 1px;
+	width:219px;
+}
+div#dropMenu ul.level3>li{
+	display:block;
+	width:220px;
+}
+div#dropMenu ul.level3>li>a{
+	color:#707070;
+	font-size:11px;
+	line-height:20px;
+	text-decoration:none;
+}
+div#dropMenu ul.level3>li>a:hover{
+	color:#c60101;
+	font-weight:bold;
+}
+#screenshot{
+	position:absolute;
+	background:#eaeaea;
+	display:none;
+	color:#ddd;
+	border:1px solid #c3c3c3;
+	width:156px;
+	height:156px;
+	z-index:999;
+	right:30px;
+	top:31px;
+}
+#screenshot img{
+	width:156px;
+	height:156px;
+	display:block;
+}

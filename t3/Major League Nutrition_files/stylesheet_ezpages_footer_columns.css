@@ -1,0 +1,30 @@
+/**
+ * @copyright Copyright 2010 Glenn Herbert
+ * @license http://www.gnu.org/licenses/ GNU Public License V3.0
+ * /includes/templates/your_template/css/stylesheet_ezpages_footer_columns.css
+ * Ezpages Footer Columns by Glenn Herbert (gjh42) 2010-12-08
+ */
+ 
+#navSupp {}
+
+.ezpagesFooterCol {float: left; padding: 0;}
+
+.ezpagesFooterCol h4 {color: #996633; text-align: center;}
+
+.ezpagesFooterCol ul {float: left; margin: 0; padding: 0!important;}
+
+#navSupp .ezpagesFooterCol li {display: block; text-align: left; margin:0 18px 0 0;}
+
+#navSupp .ezpagesFooterCol a { color: #393986; font-weight:700; text-decoration:none; font-size:12px; line-height:27px; text-transform:uppercase; font-family: 'Open Sans', sans-serif;}
+#navSupp .ezpagesFooterCol a:hover{ color:#c80101;}
+
+#navSupp a.activeEZPage, #navSupp a.activeILPage {color: #c80101;}
+
+.ezpagesFooterCol a:hover {text-decoration: underline; color: #00aa44;}
+
+#navSupp .col1 ul {border: none;}
+
+.ezpagesFooterColComment { color: #aabbcc; display: block;}
+.ezpagesFooterCol{
+	width:auto!important;
+}

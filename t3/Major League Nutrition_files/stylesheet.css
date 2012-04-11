@@ -1,0 +1,570 @@
+/**
+* Main CSS Stylesheet
+*
+* @package templateSystem
+* @copyright Copyright 2003-2007 Major League Nutrition Development Team
+* @copyright Portions Copyright 2003 osCommerce
+* @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
+* @version $Id: stylesheet.css 5952 2007-03-03 06:18:46Z drbyte $
+*/
+a img {border: none; }
+
+a, #navEZPagesTOC ul li a {
+        color:#4d5255;
+        text-decoration:none;
+        }
+ 
+a:hover, #navEZPagesTOC ul li a:hover, #navMain ul li a:hover, #navSupp ul li a:hover, #navCatTabs ul li a:hover {
+
+        }
+
+h4, h5, h6, LABEL, h4.optionName, LEGEND, ADDRESS, .sideBoxContent, .larger{
+        
+        }
+
+.attribsSelect{ padding:0 5px 0 0;}
+
+.biggerText {
+
+        }
+
+#gender-male, #gender-female, #email-format-text{ margin-left:8px;}
+.information{ padding:8px 0 0 16px;}
+
+CODE {
+        font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:17px;
+        }
+
+FORM, SELECT, INPUT {
+       
+        }
+FORM	{margin:0px; padding:0px;}
+
+TEXTAREA {
+        margin: auto;
+        display: block;
+        width: 95%;
+        }
+
+input:focus, select:focus, textarea:focus {
+
+        }
+
+FIELDSET {
+        padding: 0.5em;
+        margin: 0.5em 0em;
+		border:1px solid #cccccc;
+        }
+
+LEGEND {
+        font-weight: bold; padding:0 5px; color:#4d5255;
+        }
+
+LABEL, h4.optionName {
+        
+        }
+
+LABEL.checkboxLabel, LABEL.radioButtonLabel {
+		margin-left:5px;
+        }
+
+#logo, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .centerBoxContentsAlsoPurch, .attribImg {
+        float: left;
+        }
+
+LABEL.inputLabel {
+		width:9em;
+        float: left;
+		padding-left:10px;
+		margin:5px 0;
+		padding-right:10px;
+        }
+
+LABEL.inputLabelPayment {
+        width: 15em;
+        float: left;
+		padding:4px 0 4px 0;
+        }
+
+LABEL.selectLabel, LABEL.switchedLabel, LABEL.uploadsLabel  {
+        width: 12em;
+        float: left;
+        }
+
+P, ADDRESS {
+        padding: 0.5em;
+        }
+#contactUsNoticeContent{ border-top:solid 1px #e5e5e5; margin:15px 0 0; padding:15px 0 20px 7px;}
+
+ADDRESS {
+        font-style: normal;
+        }
+
+.clearBoth {
+        clear: both;
+        }
+
+HR {
+	color:#C1C1C1;
+	border:0; border-top:1px solid #cccccc;
+	margin:5px 0px;
+}
+
+/*warnings, errors, messages*/
+.messageStackWarning, .messageStackError, .messageStackSuccess, .messageStackCaution {
+        line-min-height: 1.8em;
+        padding: 0.2em;
+        
+        }
+
+.messageStackWarning, .messageStackError {
+        color:#FF0000; 
+        }
+
+.messageStackSuccess {
+        background-color: #F1F6E6;
+        color:#4d5255;
+        }
+
+.messageStackCaution {
+        background-color: #FFFF66;
+        color:#4d5255;
+        }
+
+/*wrappers - page or section containers*/
+#mainWrapper {
+        text-align: left;
+        vertical-align: top;
+        }
+
+#headerWrapper, #contentMainWrapper, #logoWrapper, #cartBoxListWrapper, #ezPageBoxList, #cartBoxListWrapper ul, #ezPageBoxList ul, #mainWrapper, #popupAdditionalImage, #popupImage {
+        }
+
+#navColumnOneWrapper, #navColumnTwoWrapper, #mainWrapper {
+       
+        } 
+
+#tagline {
+        color:#4d5255; margin-top:10px;
+        font-size: 12px;
+        text-align : center;
+        vertical-align: middle;
+        }
+
+#sendSpendWrapper {
+        border: 1px solid #cacaca;
+        float: right;
+        margin: 0em 0em 1em 1em;
+        }
+
+.floatingBox, #accountLinksWrapper, #sendSpendWrapper, #checkoutShipto, #checkoutBillto, #navEZPagesTOCWrapper {
+        margin: 0;
+		color:#4d5255;
+        }
+.floatingBox a {color:#4d5255;}
+#productDetailsList li a{ color:#4d5255;}
+#productDetailsList li { color:#4d5255;}
+.wrapperAttribsOptions { display:block;
+        margin: 0.3em 0em;
+        }
+
+/*navigation*/
+#sorter {margin:0;}
+	#sorter label{ font-weight:bold; color:#000;}
+
+.navSplitPagesResult { margin:5px 10px 17px 20px;}
+.navSplitPagesLinks{ margin:0 0 10px 0;}
+.navSplitPagesLinks a {display:inline-block; background:#eeeeee; padding:5px 10px; color:#393986;  text-decoration:none;}
+	.navSplitPagesLinks a:hover{ background:#393986; color:#fff;}
+	.navSplitPagesLinks strong{  display:inline-block; background:#c80101; padding:5px 10px; color:#fff;  }
+
+.navSplitPagesResult a {color:#161616;}
+
+.navNextPrevList {
+        display: inline;
+        white-space: nowrap;
+        margin:0px 2px 3px 0px;
+        list-style-type: none;
+        }
+		
+
+.navNextPrevWrapper {margin:0px 10px 5px 10px; padding:15px 0px; }
+.navNextPrevCounter {
+        margin: 0em;
+		padding:7px 0 0px;
+		color:#000;
+		display:block;
+        }
+.navNextPrevWrapper span{
+	overflow:hidden;
+	position:relative;
+	float:left;
+}
+
+
+#navMainWrapper, #navSuppWrapper, #navCatTabsWrapper {
+       
+        }
+
+#navMain ul, #navSupp ul, #navCatTabs ul  {
+        margin: 0;
+        padding:  0.5em 0em;
+        list-style-type: none;
+        text-align: center;
+        line-min-height: 1.5em;
+        }
+
+#navMain ul li, #navSupp ul li, #navCatTabs ul li {
+       
+        }
+
+#navMain ul li a, #navSupp ul li a, #navCatTabs ul li a {
+      
+        }
+
+#navEZPagesTOCWrapper {
+        font-weight: bold; float:inherit;
+        min-height: 1%;
+		padding:0.5em;
+		margin:5px 0px;
+        border: 1px solid #cccccc;
+        }
+
+#navEZPagesTOC ul {
+        margin: 0;
+        padding:  0.5em 0em;
+        list-style-type: none;
+        line-min-height: 1.5em;
+        }
+
+#navEZPagesTOC ul li {
+        white-space: nowrap;
+        }
+
+#navEZPagesTOC ul li a {
+        padding: 0em 0.5em;
+        margin: 0;
+        }
+
+#navMainSearch, #navCategoryIcon {
+        margin:5px 5px 0 0px;
+        }
+
+
+
+#navEZPagesTop {
+        
+        }
+
+
+/*The main content classes*/
+#contentColumnMain, #navColumnOne, #navColumnTwo, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew, .alert {
+        vertical-align: top;
+        }
+
+/*.content,*/ #productDescription, .shippingEstimatorWrapper {
+        /*font-size: 1.2em;*/
+        /*padding: 0.5em;*/
+        }
+.content{ margin-bottom:10px;}
+
+.alert{ font-size:11px; color:#a3a3a3; margin-left:0.5em; margin-right:5px;}
+.advisory {}
+.important {
+        font-weight: bold;
+		margin:5px;
+        }
+.notice {}
+.rating{}
+.gvBal {
+        float: right;
+        }
+#bannerOne, #bannerTwo,  #bannerThree,  #bannerFour,  #bannerFive,  #bannerSix {
+        padding: 0em;
+        }
+
+.smallText, #siteinfoLegal, #siteinfoCredits, #siteinfoStatus, #siteinfoIP {
+        font-size: 0.9em;
+        }
+
+/*Shopping Cart Display*/
+
+.tableHeading TH {
+
+        }
+
+.tableHeading, #cartSubTotal { 
+      
+	  }
+
+
+.tableRow, .tableHeading, #cartSubTotal {
+        min-height: 2.2em;
+        }
+
+.cartUnitDisplay, .cartTotalDisplay {
+        text-align: right;
+        padding-right: 0.2em;
+        }
+
+#scUpdateQuantity {
+        width: 2em;
+        }
+
+.cartQuantity {
+        width: 4.7em;
+        }
+
+.cartNewItem {
+        color:#4d5255;
+        position: relative;  /*do not remove-fixes stupid IEbug*/
+        }
+
+.cartOldItem {
+        /*do not remove-fixes stupid IEbug*/
+        }
+
+.cartBoxTotal {
+        text-align: right;
+        font-weight: bold;
+        }
+
+.cartRemoveItemDisplay {
+        width: 3.5em;
+        }
+
+#cartAttribsList {
+        margin-left: 1em;
+        }
+
+#mediaManager {
+width: 50%; 
+margin: 0.2em;
+padding: 0.5em;
+}
+
+
+#cartBoxListWrapper ul, #ezPageBoxList ul {
+        list-style-type: none;
+        }
+
+#ezPageBoxList li, .cartBoxTotal {
+        margin: 0;
+        padding: 0.2em 0em;
+        } 
+
+.totalBox {
+        width: 5.5em;
+        text-align: right;
+        padding: 0.2em;
+		font-family: 'Open Sans', sans-serif;
+	color:#a0a0a0;
+	font-size:18px;
+	line-height:18px;
+	font-weight:700;
+        }
+
+.lineTitle, .amount {
+        text-align: right;
+        padding: 0.2em;
+        }
+
+.amount {
+        width: 5.5em;
+        }
+
+/*Image Display*/
+
+
+.categoryIcon {}
+#cartImage {
+        margin: 0.5em 1em;
+        }
+
+/*Attributes*/
+.attribImg {
+        width: 20%;
+        margin: 0.3em 0em;
+}
+
+.attributesComments {}
+
+/*list box contents*/
+.centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew {
+
+        }
+
+/*sideboxes*/
+.columnLeft {}
+.columnRight {}
+
+
+
+
+
+
+.sideBoxContent {
+        }
+
+
+
+.rightBoxHeading {
+        margin: 0em;
+        background-color: #663366;
+        padding: 0.2em 0em;
+        }
+
+h3.leftBoxHeading a:hover {
+        color: #FFFF33;
+        text-decoration: none;
+        } 
+
+h3.rightBoxHeading a:hover {
+        color: #FF0000;
+        text-decoration: none;
+        }
+
+.rightBoxContent {
+        margin-bottom: 1em;
+        }
+
+.centeredContent, TH, #cartEmptyText, #cartBoxGVButton, #navCatTabsWrapper, #navEZPageNextPrev, #bannerOne, #bannerTwo,  #bannerThree,  #bannerFour,  #bannerFive,  #bannerSix, #siteinfoLegal, #siteinfoCredits, #siteinfoStatus, #siteinfoIP, .center, .cartRemoveItemDisplay, .cartQuantityUpdate, .cartQuantity, #cartBoxGVBalance, .leftBoxHeading, .centerBoxHeading,.rightBoxHeading, .productListing-data, .accountQuantityDisplay, .ratingRow, LABEL#textAreaReviews, #productMainImage, #reviewsInfoDefaultProductImage, #productReviewsDefaultProductImage, #reviewWriteMainImage, .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .additionalImages, .centerBoxContentsSpecials, .centerBoxContentsAlsoPurch, .centerBoxContentsFeatured, .centerBoxContentsNew, .gvBal, .attribImg {
+
+       width:auto;
+        }
+.categoryListBoxContents a {text-decoration:none; color:#C00505; text-transform:uppercase; text-align:center;}
+
+.cartTotalsDisplay{
+
+}
+
+
+#bannerboxHeading {
+        background-color: #0000CC;
+}
+
+#upProductsHeading {
+        text-align: left;
+        }
+
+#upDateHeading {
+        text-align: right;
+        }
+
+/*misc*/
+.back {
+        float: left;
+        }
+
+.forward {
+        float: right;
+        }
+
+.bold {
+        font-weight: bold;
+        }
+
+.rowOdd {
+        
+        min-height: 1.5em;
+        vertical-align: top;
+        }
+
+.rowEven { padding:5px 5px 5px 5px;
+        
+        min-height: 1.5em;
+        vertical-align: top;
+        }
+
+CAPTION {
+        /*display: none;*/
+        }
+
+#myAccountGen li, #myAccountNotify li {
+        margin: 0;
+        } 
+
+.accountTotalDisplay, .accountTaxDisplay {
+        width: 20%;
+        text-align: right;
+        /*vertical-align: top*/
+        }
+
+.accountQuantityDisplay {
+        width: 10%;
+        vertical-align: top
+        }
+
+TR.tableHeading {
+        min-height: 2em;
+        }
+
+#siteMapList {
+        width: 90%;
+        float: right;
+        }
+#siteMapList ul{ list-style:circle;}
+
+.ratingRow {
+        margin: 1em 0em 1.5em 0em;
+        }
+
+LABEL#textAreaReviews {
+        font-weight: normal;
+        }
+
+
+/*!!!!!!!!!*/
+#gvFaqDefaultMainContent{margin:10px 15px 0 5px;}
+#gvFaqDefaultContent{ padding:10px 0; color:#000; border-top:solid 1px #cccccc;}
+#reviewsDefaultNoReviews{margin:0 5px 5px 5px;}
+#createAcctSuccessMainContent{ margin:5px;}
+
+.main_block {margin:20px;}
+
+.ee	{text-decoration:line-through;}
+
+
+
+
+
+
+/*  --------------- PRICES ---------------  */
+
+.normalprice, .productSpecialPriceSale {
+        
+}
+		
+.normalprice {
+	font-family: 'Open Sans', sans-serif;
+	color:#a0a0a0;
+	font-size:18px;
+	line-height:18px;
+	font-weight:600;
+	text-decoration:line-through;
+	padding-right:10px;
+}
+
+.productSpecialPrice, .productSalePrice, .productSpecialPriceSale {font-family: 'Open Sans', sans-serif;
+	color:#c60101;
+	font-size:18px;
+	line-height:18px;
+	font-weight:600;}
+
+.productSpecialPriceSale {
+	text-decoration:line-through;
+}
+		
+.productPriceDiscount {color:#373737; font-size:12px;}
+
+
+
+
+/*  --------------- BUTTONS ---------------  */
+
+.buttonRow, .buttonRow2 { 
+		margin:0;
+		padding:7px 0;
+}
+
+.buttonRow input, .buttonRow2 input, .buttonRow3 input {border:none; padding:0; background:none;}
