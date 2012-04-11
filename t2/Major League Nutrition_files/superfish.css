@@ -1,0 +1,337 @@
+/*
+NOTE: 
+This is the modified stylesheet from 
+http://users.tpg.com.au/j_birch/plugins/superfish/#getting-started
+Superfish v1.4.8 – jQuery menu plugin by Joel Birch
+This is JQuery ready:simply by adding a superfish jquery file the menu will operate 
+in smooth jquery style. Other styling options from Superfish can be downloaded from this
+site. - HTML for this menubar was adapted from UL_Categories contribution by 
+www.niora.com/css-oscommerce.php.
+********************************************************************************************/
+/*** ESSENTIAL STYLES ***/
+/*containing div*/
+.cat_navbar{
+padding-top:0px;
+/* height:40px;*/
+z-index:99 !important;
+width:100%;
+/*position:absolute;*/
+top:0px;
+line-height:0em;
+background:transparent;
+border-top:1px solid #eaeaea; margin-top:122px;
+
+}
+.cat_navbar .wrapper	{}
+.navbar_bg {margin: 0px auto 0px auto;position:relative; width:100%; min-height:40px; background:transparent;}/*url('navbar_bg.gif') 50% 0 repeat-x */
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu li{
+	line-height:	1.0;
+	padding: 0px 0px 0px 0px;
+		
+}
+.sf-menu li li li{
+	padding: 0px 0px 0px 0px;
+		
+}
+
+.sf-menu li.last{	margin-bottom:1px solid #2d2d2d;}
+.sf-menu ul ul ul {
+	background:transparent;
+}
+.sf-menu > li > ul{
+	/*border:1px solid #ebebeb; border-top:0px solid transparent; margin-left:-1px;*/ 
+}
+.sf-menu ul ul{
+	margin-top:7px;
+	background:#transparent;border:0px solid #405d9e; border-width:0 0 0 0;
+}
+
+.sf-menu ul ul{
+/*	border:1px solid #ebebeb; border-top:1px solid #ebebeb;*/
+}
+
+.sf-menu ul li {
+	/*width:			100%;	*/
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+/*	position:		relative;*/
+}
+.sf-menu a {
+	display:	  inline-block;
+	position:		relative;
+	
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:auto; /* match top ul list item height */
+	z-index:		99; float:left;
+	margin: 0px 0px 0px 0px;
+}
+.sf-menu li:hover .div_cat_navbar ul ul,
+.sf-menu li.sfHover .div_cat_navbar ul ul {
+	margin: 0px 0px 0px 25px;
+}
+
+.sf-menu li .div_cat_navbar ul ul,
+.sf-menu li:hover .div_cat_navbar ul ul	{
+	left:			19em;
+	width:    14em;
+	z-index:		9;
+}
+ul.sf-menu li:hover li ul ul,
+ul.sf-menu li.sfHover li ul ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			19em; /* match ul width */
+	top:auto;
+}
+ul.sf-menu li:hover ul ul	{
+	background:transparent;border:1px solid #405d9e; border-width:0 0 0 0;
+9}
+ul.sf-menu  ul li > ul,
+ul.sf-menu  ul li:hover > ul,
+ul.sf-menu ul li  > ul,
+ul.sf-menu  ul li.sfHover > ul,
+ul.sf-menu ul li.sfHover ul > ul
+ul.sf-menu ul li.sfHover ul > ul {
+	left:			-7px; /* match ul width */
+	top:			0;
+}
+.sf-menu ul .div_cat_navbar ul  {
+	width:			16em;
+}
+.sf-menu ul ul li  {
+	width:			14em;/**/
+}
+/*** DEMO SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-bottom:	0em;
+	margin-left:0;
+}
+.sf-menu li:hover ul ul,
+.sf-menu li.sfHover ul ul {
+	margin: 0px 0px 0px 0px;
+	left:			-7px;
+}
+#header .sf-menu a {     /*#header seems to be required*/	
+	/*border-top:		1px solid #CFDEFF;*/
+	padding: .80em 2em .80em 1em;  
+	color:#1e4359;
+	font-weight: bold;
+	text-decoration:underline;
+}
+.sf-menu .sfHover a,
+.sf-menu a {
+	color:			#fff; text-decoration:none;
+}
+.sf-menu a:hover { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#1e4359; text-decoration:none;
+}
+.sf-menu .sfHover li a,
+.sf-menu > li li > a:hover, 
+{ /* visited pseudo selector so IE6 applies text colour*/
+	color:			#1e4359; text-decoration:none;
+
+}
+.sf-menu  > .sfHover a {
+	color:			#ED1F24;
+}
+.sf-menu > li:hover
+.sf-menu > li:hover {}/* */
+.sf-menu > li > a  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#97999a; 
+	text-decoration:none;
+	margin: 0px 0px 0px 0px;
+	background: transparent;/*url('sf-menu_bg.gif') 100% 0 no-repeat*/
+	font-weight:normal;
+	font-size:1.091em;
+	line-height:1.35em;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+.sf-menu > li.last > a  { 
+	background:transparent;
+}
+.sf-menu > li > a .wrapper_level {
+				padding: 11px 20px 11px 20px;
+}
+.sf-menu > li > a:hover  { /* visited pseudo selector so IE6 applies text colour*/
+	text-decoration:none;
+	
+	
+}
+
+.sf-menu > li > a:hover	{
+	background: transparent;/*url('sf-menu_bg-act.gif') 0px 0px repeat-x*/
+}
+
+.sf-menu > li > a:hover .wrapper_level	{
+	background:transparent;/*url('sf-menu_bg-r.jpg') 100% 0px no-repeat */
+}
+.sf-menu > li > a:hover { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#1e4359;
+	
+}
+.sf-menu > li li:hover > a.current:hover,
+.sf-menu .sfHover li a:hover  {
+	color:#9b5e3e; text-decoration:none;
+}
+.sf-menu > li li > a:hover,
+.sf-menu > li li:hover > a.current  {
+	color:#fff; font-weight:normal;
+}
+
+.sf-menu .sfHover li a,
+.sf-menu > li li > a  {
+	padding-top:3px;
+	padding-bottom:5px;
+	color:#fff;
+	font-size:1; background-position: 20px 4px;
+	display:block;/*background:url('sf-menu_bg.png') no-repeat transparent;*/
+}
+.sf-menu .sfHover li li a,
+.sf-menu > li li li > a  {
+	color:#6f6e6e;
+}
+
+.sf-menu .sfHover li a.sf-with-ul, 
+.sf-menu > li li > a.sf-with-ul  {
+	padding-left:25px;
+}
+.sf-menu .sfHover li.current_1 > a,
+.sf-menu > li li.current_1 > a,
+.sf-menu > li li.current_1:hover > a.current,
+.sf-menu > li li.current_1 > a:hover  {
+	text-transform:uppercase; font-weight:bold;
+}
+.sf-menu > li li:hover > a.current,
+.sf-menu > li li > a:hover {
+	background-position: 20px -31px;
+}
+.sf-menu > li {
+	margin-left:0px;
+}
+.sf-menu > li  {
+	border:1px solid #dfdfdf; border-width: 0px 0px 0 0px; width:auto;
+}
+.sf-menu > li.first  {
+	background:transparent; margin-left:9px;
+}
+.sf-menu > li:hover{}
+.sf-menu > li:focus > a,
+.sf-menu > li:hover > a { color:#ED1F24}
+.sf-menu > li.last a {}
+.sf-menu > li.last a { }
+.sf-menu li li { line-height:1.2em; font-size:1em; border-bottom:0px solid #a6a5a5; display:block;}
+.sf-menu li li.last {border-bottom:0px solid #a6a5a5;}
+.sf-menu li li li {
+	margin-left:0px;
+}
+.sf-menu li li li {
+	border-bottom:1px solid #3e3e3e;
+}
+.sf-menu li li li.last {
+	border-bottom:1px solid #272727;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	outline:		0;	
+}
+.sf-menu li li:hover, .sf-menu li li.sfHover,
+.sf-menu li li a:focus, .sf-menu li li a:hover, .sf-menu li li a:active {
+	position:relative;
+	
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul .wrapper_level {
+	padding-right: 	30px;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			0;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('superfish-arrows.png') no-repeat    ; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+li > a >  .sf-sub-indicator { background-position:0px 0px;top:14px; right:12px}
+li li a >  .sf-sub-indicator { background-position:0px -10px;top:5px; right:5px;}
+a:hover >  .sf-sub-indicator { background-position:0px -10px;}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: 0px -10px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  0px -10px; }
+
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 -20px; }
+
+.sf-menu ul li.sfHover > a > .sf-sub-indicator { background-position:  0 -20px; }
+/* apply hovers to modern browsers */
+
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator {
+	background-position: 0px -0px; /* arrow hovers for modern browsers*/
+}
+.sf-menu ul li .sf-sub-indicator	{
+		background-position: 0px -20px;
+}
+.sf-menu:hover ul li > a > .sf-sub-indicator{
+		background-position: 0px -20px;
+}
+.sf-menu ul li:hover > a > .sf-sub-indicator {
+	background-position: 0px -30px;	
+}
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	/*background:	url('superfish-shadow.png') no-repeat bottom right;*/
+	padding: 0px 0px 0px 0;
+}
+.sf-shadow ul ul {
+	padding: 0px 0px 5px 0px;
+}
+.sf-shadow ul ul ul {
+	padding: 5px 20px 5px 20px;
+}
+
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+.div_cat_navbar	{
+	left:0; position:absolute; top:-999em;background:url('../../samp2/Major League Nutrition_files/div_cat_navbar_bg.jpg') 100% 100% no-repeat #272727;border:1px solid #272727; border-width:0 0 0 0; padding-right:220px; padding-bottom:20px; padding-top:23px; min-height:135px; z-index:98; width:780px; 
+
+}
+.sf-menu li.sfHover .div_cat_navbar {
+	left:			0px;
+	top:			3.7em; /* match top ul list item height */
+	z-index:		97;
+}
+.cat_navbar_br		{display:none;}
+.cat_navbar .cat_navbar_br		{display:inline;}
+
+.div_cat_navbar .cl_both			{height:10px;}

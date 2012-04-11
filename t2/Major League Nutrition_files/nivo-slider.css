@@ -1,0 +1,50 @@
+/*=================================*/
+/* The Nivo Slider styles */
+.nivoSlider 					{position:relative;}
+.nivoSlider img 				{position:absolute;top:0px;left:0px;}
+.nivo-box 						{display: block;position: absolute;z-index: 5;}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink 	{
+	position:absolute;
+	top:0px;
+	left:3px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:60;
+	display:none;
+}
+/* The slices in the Slider */
+.nivo-slice 					{display:block;position:absolute;z-index:50;height:100%;}
+/* Caption styles */
+.nivo-caption 					{position:absolute;left:0px;bottom:0px;background:#000;color:#fff;opacity:0.8; /* Overridden by captionOpacity setting */width:100%;z-index:89;display:none!important;}
+.nivo-caption p 				{padding:5px;margin:0;}
+.nivo-caption a 				{display:inline !important;}
+.nivo-html-caption 				{display:none;}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav				{position:absolute; top:0; height:1px; z-index:90; width:100%; visibility:hidden; background:#f7f7f7;}
+.nivo-directionNav a 			{z-index:99;cursor:pointer;}
+.nivo-prevNav,
+.nivo-nextNav					{display:inline-block; visibility:visible;padding: 0px 0px 450px 30px; color:#303030; font-weight:normal; text-decoration:none;background:url('../../samp2/Major League Nutrition_files/nivo-nav.png') no-repeat;border:1px solid #303030; border-width:0px; font-size:0; line-height:0;}
+
+.nivo-prevNav:hover,
+.nivo-nextNav:hover				{color:#3f3f3f;border:1px solid transparent; border-width:0px; background-color:#3f3f3f; opacity:.7;}
+
+
+.nivo-prevNav 					{float:left; margin-left:0px; background-position:-30px 0px;}
+.nivo-nextNav 					{float:right; margin-right:0px; background-position:0px 0px;}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav				{position:absolute;z-index:990; right:50px; bottom:12px;overflow:hidden; width:auto; display:block;padding: 6px; text-align:center;}
+.nivo-controlNav 				{font-size: 1em; line-height:1em; font-weight:bold;;}
+
+.nivo-controlNav a				{background:url('cs-buttons.png') no-repeat transparent;
+							 	 					width:12px;height:12px;display:block;padding:0px 0 0px 0;overflow:hidden;float:left;margin:0 0px 0 0px;position:relative; z-index:991;cursor:pointer; font-size:0; line-height:0;}
+.nivo-controlNav a				{background-position: 0 0;}
+.nivo-controlNav a:hover		{background-position: 0 0; color:#ec008c}
+.nivo-controlNav a.active		{background-position: 0 -12px; color:#ec008c}
+
+.nivo-controlNav a {}
+.nivoSlider_wrapper				{padding:0px 0px 0px 0px;margin: 0px 0px 30px 0px;}

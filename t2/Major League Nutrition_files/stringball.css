@@ -1,0 +1,43 @@
+
+
+/*--------------------------------------*/
+/*StringBall base                       */
+/*--------------------------------------*/
+ul#stringball{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	position:relative;
+}
+ul#stringball li{
+	/*position:absolute;*/
+	margin:0;
+	padding:0;
+	float:left;
+	margin: 0px 10px 0px 0px;
+}
+
+/*--------------------------------------*/
+/*StringBall design                     */
+/*--------------------------------------*/
+ul#stringball{
+/*	width:220px;
+	height:220px;*/
+	/*border:solid 1px #333;overflow:visible;*/
+	font-size:54px;
+	font-weight:normal;
+	visibility:hidden;
+/*	visibility:visible;*/
+}
+ul#stringball li	{
+	display:inline;
+}
+ul#stringball li a{
+	text-decoration:none;
+	display:inline;
+}
+
+ul#stringball li a:hover{
+	/*padding:5px;*/
+	text-decoration:underline;
+}

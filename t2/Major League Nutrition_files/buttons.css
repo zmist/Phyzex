@@ -1,0 +1,167 @@
+.button_header,
+.button_content											{display:inline-block; overflow:hidden; line-height:0em;}
+/* ************************************************************************************* */
+.button_header											{margin-left:6px;}
+
+.button_header .button,
+.button_header .button:hover,
+.button_header .button.act,
+.button_header .button:hover div,
+.button_header .button div								{display:inline-block; cursor:pointer; overflow:hidden;}
+
+.button_header .button,
+.button_header .button:hover,
+.button_header .button.act
+.button_header .button,
+.button_header .button:hover,
+.button_header .button.act								{padding:0; overflow:hidden; font-size:1em;text-transform:uppercase;}
+/* ************************************************************************************* */
+
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_header4 .button .button-t,
+.button_header4 .button:hover .button-t,
+.button_header4 .button.act .button-t					{background:url('../../samp2/Major League Nutrition_files/button_header4.gif') repeat-x transparent;}
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_header4 .button .button-t,
+.button_header4 .button.act:hover .button-t				{background-position:0 1000px;}
+
+.button_header4 .button:hover .button-t,
+.button_header4 .button.act .button-t					{background-position:0 1000px;}
+/* ************************************************************************************* */
+.button_header4 .bg_button .button-t,
+.button_header4 .bg_button:hover .button-t,
+.button_header4 .bg_button.act .button-t				{margin: 0px 0px 0px 0px; height:20px;}
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_header4 .bg_button  a span.ui-button-text,
+.button_header4 .bg_button  span.ui-button-text,
+.button_header4 .bg_button:hover a span.ui-button-text,
+.button_header4 .bg_button.act a span.ui-button-text,
+.button_header4 .bg_button:hover span.ui-button-text,
+.button_header4 .bg_button.act span.ui-button-text						{font-weight:bold;text-decoration:none; white-space:nowrap;text-transform:none;}											 
+/* ************************************************************************************* */	
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_header4 .bg_button:hover a span.ui-button-text,
+.button_header4 .bg_button.act a span.ui-button-text,
+.button_header4 .bg_button:hover span.ui-button-text,
+.button_header4 .bg_button.act span.ui-button-text					{color:#fff;}
+
+.button_header4 .bg_button  a span.ui-button-text,
+.button_header4 .bg_button  span.ui-button-text						{color:#fff;line-height:1em;padding: 7px 10px 7px 10px; display:inline-block;}
+/* ************************************************************************************* */	
+/* ************************************************************************************* */
+/* ************************************************************************************* */	
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_content  button										{height:22px; font-size:100%; font-family:Arial, Helvetica, sans-serif;}	
+/* ************************************************************************************* */	
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_content .button,
+.button_content .button.act,
+.button_content .button div								{display:inline-block; cursor:pointer; overflow:hidden;}
+
+.button_content .button,
+.button_content .button.act								{padding:0; overflow:hidden; position:relative;}
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_content .bg_button .button-b,
+.button_content .bg_button:hover .button-b,
+.button_content .bg_button.act .button-b,
+.button_content .bg_button .button-t,
+.button_content .bg_button:hover .button-t,
+.button_content .bg_button.act .button-t						{background:url('../../samp2/Major League Nutrition_files/button_content.png') repeat-x transparent;}
+
+.button_content .bg_button .button-t								{background-color:#454545; background-position:0 0;border:1px solid #262626;}
+.button_content .bg_button:hover .button-t,
+.button_content .bg_button.act .button-t						{background-color:#8c5f47; background-position:0 -78px;border:1px solid #78503a;}
+
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_content .bg_button .button-t,
+.button_content .bg_button:hover .button-t,
+.button_content .bg_button.act .button-t				{height:22px;position:relative; display:block;}
+
+
+
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_content .bg_button  a span.ui-button-text,
+.button_content .bg_button  span.ui-button-text,
+.button_content .bg_button:hover a span.ui-button-text,
+.button_content .bg_button.act a span.ui-button-text,
+.button_content .bg_button:hover span.ui-button-text,
+.button_content .bg_button.act span.ui-button-text						{line-height:1em;font-weight:bold;white-space:nowrap;text-decoration:none; display:inline-block;}
+
+	
+.button_content .bg_button  a span.ui-button-text,
+.button_content .bg_button  span.ui-button-text,
+.button_content .bg_button:hover a span.ui-button-text,
+.button_content .bg_button.act a span.ui-button-text,
+.button_content .bg_button:hover span.ui-button-text,
+.button_content .bg_button.act span.ui-button-text			{
+        font-size:1em;
+      } 											 
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_content2 .bg_button  a span.ui-button-text,
+.button_content2 .bg_button  span.ui-button-text						{color:#fff;text-decoration:none;}
+
+.button_content2 .bg_button:hover a span.ui-button-text,
+.button_content2 .bg_button.act a span.ui-button-text,
+.button_content2 .bg_button:hover span.ui-button-text,
+.button_content2 .bg_button.act span.ui-button-text						{color:#fff;text-decoration:none;}
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.button_content22 .bg_button  a span.ui-button-text,
+.button_content22 .bg_button  span.ui-button-text						{color:#fff;text-decoration:none;}
+
+.button_content22 .bg_button:hover a span.ui-button-text,
+.button_content22 .bg_button.act a span.ui-button-text,
+.button_content22 .bg_button:hover span.ui-button-text,
+.button_content22 .bg_button.act span.ui-button-text					{color:#fff;text-decoration:none;}
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.ui-button-text-icon-primary .ui-button-text, .ui-button-text-icons .ui-button-text { padding: 6px 11px 4px 11px; }
+.prod_info_next .button_next .ui-button-text-icon-primary .ui-button-text, 
+.prod_info_next .button_next .ui-button-text-icons .ui-button-text 				{ padding: 6px 11px 4px 11px; }
+.ui-button-text-icon-secondary .ui-button-text, .ui-button-text-icons .ui-button-text {padding:6px 11px 4px 11px;  }
+
+
+
+.button__padd .ui-button-text-icon-primary .ui-button-text, .button__padd .ui-button-text-icons .ui-button-text { padding: 6px 11px 4px 11px;}
+.button__padd .ui-button-text-icon-secondary .ui-button-text, .button__padd .ui-button-text-icons .ui-button-text {padding: 6px 11px 4px 11px;}
+
+span.ui-button-icon-primary		{display:none;} /**/
+
+.button_content2 .ui-state-default .ui-icon		 		{ background-image: url('../../samp2/ext/jquery/ui/redmond/images/ui-icons_orange_256x240.png');}
+.button_content2:hover .ui-state-default .ui-icon		 		{ background-image: url('../../samp2/ext/jquery/ui/redmond/images/ui-icons_ffffff_256x240.png');}
+.button_content2 .ui-state-hover .ui-icon		 		{ background-image: url('../../samp2/ext/jquery/ui/redmond/images/ui-icons_ffffff_256x240.png');}
+
+.button_content22 .ui-state-default .ui-icon		 		{ background-image: url('../../samp2/ext/jquery/ui/redmond/images/ui-icons_grey_256x240.png');}
+.button_content22:hover .ui-state-default .ui-icon		 		{ background-image: url('../../samp2/ext/jquery/ui/redmond/images/ui-icons_ffffff_256x240.png');}
+.button_content22 .ui-state-hover .ui-icon		 		{ background-image: url('../../samp2/ext/jquery/ui/redmond/images/ui-icons_ffffff_256x240.png');}
+
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+

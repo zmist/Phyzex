@@ -1,0 +1,258 @@
+.infoBoxWrapper						{margin:0px 0px 20px 0px;padding: 0px 0px 0px 0px; overflow:hidden;}
+/* ************************************************************************************* */
+
+
+ 
+.infoHeading,
+.infoBoxHeading  							{margin: 0px 0px 0px 0px; position:relative;}
+
+.infoBoxHeading h1 						{}
+.infoBoxHeading a 						{text-decoration:none;}
+.infoBoxHeading a:hover				{}
+.infoBoxHeading .title-icon		{background:url('../../samp2/Major League Nutrition_files/title-icon.gif') 0 0 no-repeat transparent; display:inline-block; width:8px; height:5px; position:absolute; top:14px; left:10px; display:none;}
+
+.infoBoxWrapper .infoBoxContents 					{padding: 13px 0px 10px 0px; overflow:hidden;}
+
+.infoBoxWrapper.list .infoBoxHeading  				{}
+.infoBoxWrapper.list .infoBoxContents 					{}													
+/* ************************************************************************************* */
+.prods_info .infoBoxWrapper .infoBoxContents a 							{ font-size:1.1em;}
+.prods_info .infoBoxWrapper .infoBoxContents a:hover				{}
+
+.prods_info .infoBoxWrapper 										{margin: 15px 0px 0px 0px;}
+.prods_info .infoBoxWrapper .infoBoxHeading,
+.prods_info .infoBoxWrapper .infoBoxHeading	 a	{border:0; color:#303030;} 
+.prods_info .infoBoxWrapper .infoBoxContents 		{padding: 10px 11px 10px 11px;}
+
+.infoContents,
+.infoBoxContents 									{ }
+/* ************************************************************************************* */
+.infoBoxWrapper.box2 				 				{}
+.infoBoxWrapper.box2 .infoBoxHeading 				{}
+.infoBoxWrapper.box2 .infoBoxContents 				{}
+/* ************************************************************************************* */
+.infoBoxWrapper.box3  											{ overflow:hidden; border:0; background:none;}
+.infoBoxWrapper.box3 .infoBoxHeading				{ border:0;}
+.infoBoxWrapper.box3 .infoBoxHeading a				{}
+
+.infoBoxWrapper.box3 .infoBoxHeading  				{}
+.infoBoxWrapper.box3								{}
+.infoBoxWrapper.box3 .infoBoxContents 				{border:0;}
+/* ************************************************************************************* */
+.infoBoxWrapper.box4 				 							{margin:40px 0px 35px 0px; float:left;background:url('../../samp2/Major League Nutrition_files/box4_bg.gif') 100% 0px repeat-y transparent;border:0;}
+.infoBoxWrapper.box4.last 				 				{background:transparent;}
+
+.infoBoxWrapper.box4 .infoBoxHeading 				{padding: 0px 0px 7px 20px;border:0;}
+
+.infoBoxWrapper.box4													{}
+.infoBoxWrapper.box4 .infoBoxContents 				{padding: 10px 0px 1px 0px; border:1px solid #36393b; border-width:0px 0 0 0px;margin: 0px 20px 0px 20px;}
+.infoBoxWrapper.box4  ul											{border-top:0px solid #36393b;}
+.infoBoxWrapper.box4  ul.first		{border-top:0px;}
+.infoBoxWrapper.box4  li.wrapper_prods {
+    float: left;
+    margin: 0px 0px 0px 0px;
+    width: auto;
+		padding: 15px 0px 20px 0px;
+		background:url('../../samp2/Major League Nutrition_files/box4_bg2.gif') 0px 100% repeat-x transparent;
+}
+.infoBoxWrapper.box4 ul.first  li.wrapper_prods	{
+	padding: 0px 0px 15px 0px;
+}
+		
+.infoBoxWrapper.box4  ul													{margin: 0px 0px 0px 0px;}
+.infoBoxWrapper.box4  ul.last											{margin: 0px 0px 31px 0px;}
+.infoBoxWrapper.box4 .infoBoxContents .pic_padd		{float:left; margin-right:6px;}
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.infoBoxWrapper.box5 				 				{}
+.infoBoxWrapper.box5 .infoBoxHeading 				{}
+.infoBoxWrapper.box5 .infoBoxContents .padd 			{}
+.infoBoxWrapper.box5  li.wrapper_prods {
+    float: left;
+    margin:0px 0px 0px 0px;
+    width:100%;
+}
+.infoBoxWrapper.box5  ul							{margin: 0px 0px 0px 0px;overflow:hidden;}
+.infoBoxWrapper.box5  ul.first				{ border:0;}
+.infoBoxWrapper.box5 .wrapper_pic_div.fl_left				{ margin-top:3px;margin-right:9px;  float:left;}
+
+
+.infoBoxWrapper.box6 .infoBoxContents .inner_padd		{ padding-top:5px;}
+/* ************************************************************************************* */
+
+.infoBoxWrapper.cart_box  							{}
+.infoBoxWrapper.cart_box .box_wrapper				{}
+.infoBoxWrapper.cart_box .infoBoxHeading			{}
+.infoBoxWrapper.cart_box .infoBoxHeading a			{}
+
+.infoBoxWrapper.cart_box .infoBoxContents 		    {}
+
+.infoBoxWrapper.cart_box .infoBoxContents 			{}
+.infoBoxWrapper.cart_box .infoBoxContents strong	{}
+.infoBoxWrapper.cart_box .infoBoxContents a			{ color:#888787;}
+.infoBoxWrapper.cart_box .infoBoxContents a:hover	{}
+.cart_box_separator									{border-bottom:1px solid #dfdede;padding: 0px 0px 5px 0px;}
+.cart_price_box										{padding: 15px 0px 0px 0px;}
+SPAN.newItemInCart 									{font-size:1em;color: #ff0000;}
+a:hover SPAN.newItemInCart 							{color: #f25c06;}
+/* ************************************************************************************* */
+.infoBoxWrapper.banner								{margin:0px 0px 3px 0px;padding:0px; border:0px solid #e1e1e1;}
+/* ************************************************************************************* */
+.list .infoBoxContents li							{padding:0px 0px 0px 0px; width:100%;position:relative;}
+
+.list .infoBoxContents li, 
+.list .infoBoxContents li a, 
+.list .infoBoxContents li a font					{font-weight:normal; vertical-align:top;}
+
+.infoBoxContents li a b							{font-weight:bold;}									
+.infoBoxContents ul								{list-style:none;padding:0; margin:0;}
+.list .infoBoxContents .categories				{margin:0px 0px 0px 0px;font-weight:normal;}
+.list .infoBoxContents .bestsellers				{margin:0px 0px 0px 0px;padding: 0px 0px 10px 0px;}
+.list .infoBoxContents .information				{margin:0px 0px 0px 0px;}
+.list .infoBoxContents .manufacturers ul			{margin:0px 0px 0px 0px;}
+.list .infoBoxContents li a strong,
+.list .infoBoxContents li a 						{display:inline-block; overflow:hidden;}
+.list .infoBoxContents .bestsellers li a 						{display:inline;}
+.list .infoBoxContents ul li .div 				{padding-left:19px;}
+
+.list .infoBoxContents a						{}
+.list .infoBoxContents li 					{line-height:1.35em;border-top:1px solid #dfdede;} /* */
+.list .infoBoxContents li.first				{margin-top:0;border-top:1px solid #fff;}
+.list .infoBoxContents li:hover				{}
+.list .infoBoxContents li,
+.list .infoBoxContents li a					{color:#4e514c;text-decoration:none;}
+.list .infoBoxContents li .div a		{color:#9f9f9f;}
+.list .infoBoxContents li a					{padding:8px 0px 12px 0px;}
+.list .infoBoxContents li:hover,
+.list .infoBoxContents li a:hover				{color:#ac745b; text-decoration:none;}
+.list .infoBoxContents li a b					{ color:#ac745b;font-weight:normal;margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;display:block;}
+.list .infoBoxContents li a:hover b			{color:#4e514c;}
+
+.list .infoBoxContents li span					{color:#4e514c;text-decoration:none; font-size:1.07em;}
+.list .infoBoxContents li span					{padding:8px 19px 12px 0px; display:inline-block;}
+
+.list .infoBoxContents li .category_arrow		{position:absolute;width:10px; height:6px; top:6px; right:0px; line-height:0px; font-size:0px;padding:0px;}
+.list .infoBoxContents li .list_bg  			{position:absolute; width:10px; height:6px; top:6px; left:3px;line-height:0px; font-size:0px;}
+.list .infoBoxContents li .div .list_bg  		{left:19px;}
+.list .infoBoxContents li .div .div .list_bg  	{left:38px;}
+
+.list .infoBoxContents li .list_bg,
+.list .infoBoxContents li .category_arrow		{background:url('../../samp2/Major League Nutrition_files/bg_list.png') 0px 0px no-repeat transparent;}/**/
+
+										
+.list .infoBoxContents li .list_bg  				{background-position:0px 099px;}	
+.list .infoBoxContents li:hover .list_bg  		{background-position:0px -899px;}										
+.list .infoBoxContents li .category_arrow			{background-position:0 -16px;}
+.list .infoBoxContents li:hover .category_arrow	{background-position:0 -24px;}										
+
+
+
+/* ************************************************************************************* */
+.infoBoxContents .bestsellers li 			{overflow:hidden;}
+.infoBoxContents .bestsellers li:hover 		{text-decoration:none;}
+.infoBoxContents .bestsellers li a				{padding-left:0px; display:inline; text-decoration:none;}
+.infoBoxContents .bestsellers li .div_2		{overflow:hidden; width:auto; padding-bottom:13px;}
+.infoBoxContents .bestsellers li b				{display:inline-block;float:left; color:#000;padding: 0px 2px 0px 0px;}
+.infoBoxContents .bestsellers li a:hover 	{text-decoration:none;}
+.infoBoxContents .bestsellers li .list_bg	{}
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.infoBoxContents.search 					{padding:0px 0px 0px 0px;margin:0px 0px 0 0px;width:100%;}
+.infoBoxContents.search label				{color:#fff;margin-right:3px; margin-top:2px;text-transform:uppercase;display:none;}
+
+.infoBoxContents.search .go					{color:#7a7a7a;
+							 width:94%;padding:3px 6px 2px 8px; min-height:7px;left:0px;margin:0;border:0px solid #fff;background:transparent;position:absolute;top:0;line-height:1.5em;font-size:.85em;}
+							 
+.infoBoxContents	.input-width 			{height:21px;width:144px;}
+.infoBoxContents		.width-setter 										{height:21px;position:relative;margin:0 0 0 0;background:url('search_input_bg.gif') 0px 0px no-repeat transparent;}
+							 
+.infoBoxContents.search .button_header_search	{margin-left:0px;}	
+.infoBoxContents.search .box_wrapper					{overflow:hidden;display:inline-block;}
+.infoBoxContents.search .advanced							{display:block;padding: 6px 0px 0px 9px;}		
+.infoBoxContents.search .advanced	a						{ color:#3c3c3c; font-weight:bold; text-decoration:underline;}	
+.infoBoxContents.search .advanced	a:hover			{text-decoration:none; }						 
+/* ************************************************************************************* */
+
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.cart_box					{}
+.infoBoxContents SPAN.productSpecialPrice 		{} 
+.infoBoxContents del		{}
+
+.infoBoxContents .select					{width:100%; font-size:1em;}
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.infoBoxContents .stars_padd						{padding:5px 0px 0px 0px;}
+/* ************************************************************************************* */
+.box_icon					{display:block; float:left;padding:0px 20px 0px 0px;}
+.box-padd					{padding: 5px 5px 3px 5px; overflow:hidden;}
+.padd							{padding: 0px 0px 0px 9px;}
+.best_sellers .padd			{width:auto;}
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.Footer_BoxWrapper 									{ float:right;}
+.Footer_BoxHeading									{display:none;}
+.Footer_BoxWrapper h4								{padding: 16px 0px 0px 0px;margin: 10px 0px 0px 0px;}
+.Footer_BoxWrapper h4								{color:#fff;font-weight:bold; }
+.Footer_BoxWrapper ul								{padding: 0px 10px 0px 0px;margin: 7px 0px 0px 10px; list-style:none; overflow:hidden; float:left;}
+.Footer_BoxWrapper li								{}
+.Footer_BoxWrapper li a								{padding: 3px 10px 2px 10px; display:inline-block;}
+
+.Footer_BoxWrapper li a								{color:#7e7e7e;font-size:0; font-weight:normal; text-decoration:none;}
+.Footer_BoxWrapper li.act a,
+.Footer_BoxWrapper li a:hover						{color:#7e7e7e; text-decoration:underline;}
+
+.Footer_BoxWrapper li.first a						{background:none;}
+
+/* ************************************************************************************* */
+/* ************************************************************************************* */
+.banner_set 					{list-style:none; overflow:hidden; padding:0;margin: 0px 0px 0px 10px;}
+.banner_set	li					{display:block;margin: 0px 0px 30px 20px;padding: 0px 0px 0px 0px;float:left;}
+.banner_set	li a				{display:block;}
+.banner_set	li.first			{}
+.banner_set	li.last				{}
+.banner_set	li.first.last		{}
+
+.banner_side					{line-height:0em; margin-bottom:40px; }
+.banner_footer					{line-height:0em; margin-top:23px;}
+
+.banner,
+.banner_set	li					 {line-height:0; font-size:0;}
+
+.bookmarks 										{width:100%; float:none; overflow:hidden;}
+.bookmarks .infoBoxWrapper		{float:left; margin-right:0px;}
+
+.page_reviews .bookmarks .infoBoxWrapper					{margin-left:20px;}
+.page_reviews .bookmarks .infoBoxWrapper.first		{margin-right:0px;}
+
+
+
+.infoBoxContents .border_prods		{padding: 0px 0px 10px 0px;overflow:hidden;}
+
+.infoBoxContents .prods_padd		{padding: 0px 0px 0px 0px;}
+
+.tool_tip						{position:absolute; right:10px; top:10px; width:100px; height:120px; background:#666; border:1px solid #333; display:none;}
+.box_header_phone				{
+	color:#ED1F24;
+	font-size:2.25em;
+	line-height:1em;
+	padding-right:2px;
+	margin-top:10px;
+	font-family: 'Open Sans', sans-serif;
+}
+.box_header_phone span			{color:#cacbcc;}
+.box_header_phone > div 		{margin-left:20px; margin-top:12px;}
+
+/* ************************************************************************************* */
+
+.infoBoxContents .bestsellers li a	{
+				display:inline;
+			}
+.Footer_BoxWrapper li a					{font-size:1em;}
+.list .infoBoxContents li				{font-size:1.091em;}
+.list .infoBoxContents li b,			
+.list .infoBoxContents li a			{font-size:1.07em;}
+.list .infoBoxContents li .div a	{font-size:.91em;}						
+
+/* ************************************************************************************* */
+.boxes_above_footer					{position:relative; margin: 0 auto 0 auto; padding-left:29px; padding-right:29px;}

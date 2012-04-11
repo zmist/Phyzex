@@ -1,0 +1,42 @@
+.list li a,
+.bestsellers li a:hover,
+.name a:hover,
+
+.hover:hover .wrapper_pic_t,
+.hover:hover .wrapper_pic_r,
+.hover:hover .wrapper_pic_b,
+.hover:hover .wrapper_pic_l					{
+	-webkit-transition: all .4s ease 0s;
+	-moz-transition: all .4s ease 0s;
+	-ms-transition: all .4s ease 0s;
+	-o-transition: all .4s ease 0s;
+	transition: all .4s ease 0s;	
+}
+.sf-menu > li > a:hover					{
+	-webkit-transition: all .5s ease-in-out 0s;
+	-moz-transition: all .5s ease-in-out 0s;
+	-ms-transition: all .5s ease-in-out 0s;
+	-o-transition: all .5s ease-in-out 0s;
+	transition: all .5s ease-in-out 0s;	
+}
+
+
+
+
+/* ************************************************************************************* */
+::selection {
+background:#545252;
+color:#fff;
+}
+::-moz-selection {
+background:#545252; 
+color:#fff;
+}
+/* ************************************************************************************* */
+.wrapper	{
+   -webkit-box-shadow: 0px 3px 3px #b2ac9c;
+   -moz-box-shadow: 0px 3px 3px #b2ac9c;
+   box-shadow: 0px 3px 3px #b2ac9c;
+}
+/*.infoBoxContents  li b	{text-shadow: #000 0px 0px 1px;}
+.infoBoxContents  li a	{text-shadow: #666666 0px 0px 1px;}*/
